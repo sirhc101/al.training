@@ -1,0 +1,41 @@
+{
+    "id": "da464776-0a56-4331-af2f-345504663b16",
+    "name": "Salesperson My Customer Allocation",
+    "publisher": "Default publisher",
+    "version": "1.0.0.0",
+    "brief": "This extension is automatically create records in My Customer table when Salesperson in Customer will be changed.",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+      {
+        "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+        "publisher": "Microsoft",
+        "name": "System Application",
+        "version": "1.0.0.0"
+      },
+      {
+        "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+        "publisher": "Microsoft",
+        "name": "Base Application",
+        "version": "15.0.0.0"
+      }
+    ],
+    "screenshots": [],
+    "platform": "15.0.0.0",
+    "idRanges": [
+      {
+        "from": 50000,
+        "to": 99999
+      }
+    ],
+    "contextSensitiveHelpUrl": "https://ALProject4.com/help/",
+    "showMyCode": true,
+    "runtime": "4.0",
+    "features": [
+      "TranslationFile"
+    ]
+  }
