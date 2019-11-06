@@ -20,3 +20,5 @@ Unter Anwendung von Überladung (`Procedure overload`), wird die Funktion zum An
 ### Involvierte Objekte
  - Table 37 – Sales Line
  - Table 27 – Item 
+ - Table 83 – Item Journal Line
+
