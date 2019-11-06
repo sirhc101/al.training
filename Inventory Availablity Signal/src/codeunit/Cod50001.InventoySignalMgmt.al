@@ -3,6 +3,22 @@ codeunit 50001 "Inventory Signal Mgmt."
     Access = Public;
 
     /// <summary>
+    /// This method is calculating the inventory signal for given Item Journal Line.
+    /// </summary>
+    procedure CalcInventorySignal(itemJnlLine: Record "Item Journal Line"; var tempBlob: Codeunit "Temp Blob")
+    var
+        item: Record Item;
+    begin
+        if (itemJnlLine."Item No." = '') then
+            exit;
+
+        item.Get(itemJnlLine."Item No.");
+        item.CalcFields(Inventory);
+
+        CalcInventorySignal((item.Inventory - itemJnlLine."Quantity (Base)"), tempBlob);
+    end;
+
+    /// <summary>
     /// This method is calculating the inventory signal for given Sales Line.
     /// </summary>
     procedure CalcInventorySignal(salesLine: Record "Sales Line"; var tempBlob: Codeunit "Temp Blob")

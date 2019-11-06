@@ -14,6 +14,9 @@ Bei Änderung des `Verkäufercodes` in der Tabelle `Debitor` soll für den neu g
 ## Inventory Availablity Signal
 ### Anforderung
 In der `Verkaufsauftragzeilen` soll, je Artikelzeile, eine farbige Markierung (Rot, Grün, Grau) angezeigt werden, je nachdem ob der gerade gewählte `Artikel` ausreichend `Lagerbestand` (grün) aufweist, oder nicht verfügbar ist (rot).
+
+Unter Anwendung von Überladung (`Procedure overload`), wird die Funktion zum Anzeigen der Lagerbestandsmarkierung für `Artikel Buch.-Blatt Zeilen` erweitert.
+
 ### Involvierte Objekte
  - Table 37 – Sales Line
  - Table 27 – Item 
