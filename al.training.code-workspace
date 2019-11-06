@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Salesperson My Customer Allocation"
+		},
+		{
+			"path": "Inventory Availablity Signal"
 		}
 	],
 	"launch": {

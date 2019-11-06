@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Inventory Availablity Signal">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4017333296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Inventory Signal</source>
+          <target state="translated">Lagerbestandskennzeichen</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4017333296 - Field 725727250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Signal</source>
+          <target state="translated">Kennzeichen</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - Field Signal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4017333296 - Field 531282063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Minimum Value</source>
+          <target state="translated">Mindestwert</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - Field Minimum Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4017333296 - Field 320775665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Image</source>
+          <target state="translated">Bild</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - Field Image - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4017333296 - NamedType 3945239846" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>The image has been uploaded successfully.</source>
+          <target state="translated">Das Bild wurde erfolgreich hochgeladen.</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - NamedType ImageHasBeenUploadedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 4017333296 - NamedType 1124788520" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Image could not been uploaded successfully.</source>
+          <target state="translated">Das Bild konnte nicht hochgeladen werden.</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Inventory Signal - NamedType ImageCouldNoBeenUploadedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642601307 - NamedType 986683380" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Please setup Inventory Signals before using this function.</source>
+          <target state="translated">Bitte richten Sie die Lagerbestandskennzeichen vollständig ein, bevor sie die Funktion nutzen.</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Inventory Signal Mgmt. - NamedType SetupInventorySignalsBeforeUsingFunctionErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 795045569 - Field 4017333296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010" approved="yes">
+          <source>Inventory Signal</source>
+          <target state="translated">Lager</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Line Inv. Signal - Field Inventory Signal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 725727250 - EnumValue 2192565327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Gray</source>
+          <target state="translated">Grau</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Signal - EnumValue Gray - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 725727250 - EnumValue 3750225965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Red</source>
+          <target state="translated">Rot</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Signal - EnumValue Red - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 725727250 - EnumValue 2012424656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Yellow</source>
+          <target state="translated">Gelb</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Signal - EnumValue Yellow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 725727250 - EnumValue 2899644277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Green</source>
+          <target state="translated">Grün</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Signal - EnumValue Green - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
