@@ -22,3 +22,24 @@ Unter Anwendung von Überladung (`Procedure overload`), wird die Funktion zum An
  - Table 27 – Item 
  - Table 83 – Item Journal Line
 
+## Customer Reward
+### Anforderung
+Es soll einem `Debitor` eine sogenannte `Vergütungsstufe` (Reward) zugeteilt werden können. Als Vergütungsstufen werden BRONZE, SILBER und GOLD festgelegt und zu jeder Vergütungsstufe gehört ein entsprechender Rabattsatz:
+| Vergütungsstufe | Rabatt in % |
+| --- | --- |
+| BRONZE | 5% | 
+| SILBER | 10% | 
+| GOLD | 15% | 
+
+Die Vergütungsstufe soll initial bei der Installation der App, abhängig vom `Verkauf (MW)` Betrag  vergeben werden:
+| Vergütungsstufe | ab Verkauf (MW) Betrag |
+| --- | --- |
+| BRONZE | 0,- | 
+| SILBER | 1.000,- | 
+| GOLD | 5.001,- | 
+
+Abhängig der zugeteilten Vergütungsstufe soll bei der Anlage einer `Verkaufsauftragszeile` (Sales Line, Document Type = Order) der entsprechende Rabatt, **zusätzlich** zu den regulären Rabatten auf den gem. der Preisfindung, angewandt werden. 
+
+### Involvierte Objekte
+ - Table 37 – Sales Line
+ - Table 18 – Customer

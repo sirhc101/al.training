@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "Inventory Availablity Signal"
+		},
+		{
+			"path": "CustomerReward"
 		}
 	],
 	"launch": {
