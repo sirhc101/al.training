@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="CustomerReward">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4201775713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward</source>
+          <target state="translated">Vergütungsstufe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 1157966702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Reward ID</source>
+          <target state="translated">Vergütungsstufen-ID</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Reward ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 4075675287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
+          <source>Discount Percentage</source>
+          <target state="translated">Rabatt %</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Discount Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward List</source>
+          <target state="translated">Vergütungsstufen Übersicht</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2824380717 - Field 1148235650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
+          <source>Customer Reward ID</source>
+          <target state="translated">Vergütungsstufen-ID</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2824380717 - Field 749402391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
+          <source>Customer Reward Description</source>
+          <target state="translated">Vergütungsstufen Beschreibung</target><note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1524150600 - Action 308868279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Show Distance and Duration</source>
+          <target state="translated">Reisedauer und Entfernung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Reward Ext. - Action ShowDistanceAndTravelDuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1386830146 - NamedType 2236736815" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Origin: %1\Destination: %2\ \Distance: %3 km\Duration: %4 min.</source>
+          <target state="translated">Start: %1\Ziel: %2\ \Entfernung: %3km\Reisezeit: %4min.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType FinalMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1386830146 - NamedType 594545870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That are %1.</source>
+          <target state="translated">Das sind übrigens %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType FinalCoolMsg</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
