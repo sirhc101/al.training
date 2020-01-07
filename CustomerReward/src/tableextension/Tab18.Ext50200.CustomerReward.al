@@ -1,4 +1,4 @@
-tableextension 50200 "Customer Reward" extends "Sales Line"
+tableextension 50200 "Customer Reward" extends "Customer"
 {
     fields
     {
