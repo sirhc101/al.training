@@ -5,6 +5,7 @@ page 50200 "Reward List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Reward;
+    CardPageId = "Reward Card";
 
     layout
     {
