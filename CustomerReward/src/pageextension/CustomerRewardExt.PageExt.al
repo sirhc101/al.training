@@ -7,6 +7,11 @@ pageextension 50200 "Customer Reward Ext." extends "Customer Card"
             field("Customer Reward ID"; "Customer Reward ID")
             {
                 ApplicationArea = All;
+
+                trigger OnValidate()
+                begin
+                    CurrPage.Update(true);
+                end;
             }
 
             field("Customer Reward Description"; "Customer Reward Description")
