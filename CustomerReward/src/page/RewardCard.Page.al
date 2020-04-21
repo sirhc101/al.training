@@ -52,7 +52,7 @@ page 50201 "Reward Card"
                 PromotedIsBig = true;
                 PromotedOnly = true;
 
-                RunObject = page "Customer Card";
+                RunObject = page "Customer List";
                 RunPageLink = "Customer Reward ID" = field("Reward ID");
                 RunPageMode = View;
             }
