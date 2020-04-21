@@ -2,7 +2,7 @@ table 50200 "Reward"
 {
     Caption = 'Reward';
     DataClassification = CustomerContent;
-    LookupPageId = 50200;
+    LookupPageId = "Reward List";
     DrillDownPageId = 50200;
 
     fields
