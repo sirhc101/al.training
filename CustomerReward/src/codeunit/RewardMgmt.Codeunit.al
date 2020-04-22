@@ -20,9 +20,9 @@ codeunit 50200 "Reward Mgmt."
 
         cust.Reset();
         cust.SetFilter("Customer Reward ID", '%1', '');
-        cust.CalcFields("Sales (LCY)");
         if (cust.Find('-')) then
             repeat
+                cust.CalcFields("Sales (LCY)");
                 case true of
                     ((cust."Sales (LCY)" >= 1000) and (cust."Sales (LCY)" <= 5000)):
                         cust.Validate("Customer Reward ID", 'SILBER');
