@@ -50,9 +50,11 @@ codeunit 50201 "Google Maps Api"
             exit;
 
         object.ReadFrom(jsonAsString);
-        object.SelectToken('rows[0].elements[0].distance.value', token);
+        if (not object.SelectToken('rows[0].elements[0].distance.value', token)) then
+            Error(UnableToRetrieveDistanceOrDurationErr);
         distance := token.AsValue().AsDecimal();
-        object.SelectToken('rows[0].elements[0].duration.value', token);
+        if (not object.SelectToken('rows[0].elements[0].duration.value', token)) then
+            Error(UnableToRetrieveDistanceOrDurationErr);
         duration := token.AsValue().AsDecimal();
 
         OnAfterParseJsonAndMessageOutput(jsonAsString, distance, duration);
@@ -92,7 +94,7 @@ codeunit 50201 "Google Maps Api"
 
     local procedure GetApiKey(): Text
     begin
-        exit('AIzaSyBj1vWH6N_phVAP1AdCZEI5ikOI5YdY2SA');
+        exit('');
     end;
 
     local procedure GetUrl(): Text
@@ -111,6 +113,7 @@ codeunit 50201 "Google Maps Api"
     end;
 
     var
+        UnableToRetrieveDistanceOrDurationErr: Label 'Unable to retrieve distance and duration. Please verify the address is valid.';
         FinalMsg: Label 'Origin: %1\Destination: %2\ \Distance: %3 km\Duration: %4 min.';
         FinalCoolMsg: Label 'That are %1.';
 }
