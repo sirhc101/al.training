@@ -23,6 +23,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Discount Percentage - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4195118232 - NamedType 3258359293" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value cannot be zero in field %1 for reward level %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Event Handler - NamedType ValueMustBeLargerZeroErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1386830146 - NamedType 2659488499" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to retrieve distance and duration. Please verify the address is valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType UnableToRetrieveDistanceOrDurationErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1386830146 - NamedType 2236736815" size-unit="char" translate="yes" xml:space="preserve">
           <source>Origin: %1\Destination: %2\ \Distance: %3 km\Duration: %4 min.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -33,15 +43,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType FinalCoolMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4195118232 - NamedType 3258359293" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Value cannot be zero in field %1.</source>
+        <trans-unit id="Page 1931864602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>apiCustomerList</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Event Handler - NamedType ValueMustBeLargerZeroErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page API Customer List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 1157966702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the unique ID of the Reward Level.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Reward ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the description of the Reward Level.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 4075675287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the discount in percent to be applied if the Reward Level is assigned to a customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Discount Percentage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Action 2345058688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Action ShowCustomers - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2465587863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reward List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 1157966702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the unique ID of the Reward Level.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Reward ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the description of the Reward Level.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 4075675287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the discount in percent to be applied if the Reward Level is assigned to a customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Discount Percentage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1524150600 - Action 308868279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Show Distance and Duration</source>

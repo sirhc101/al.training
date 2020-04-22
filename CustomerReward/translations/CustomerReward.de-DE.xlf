@@ -6,57 +6,140 @@
         <trans-unit id="Table 4201775713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reward</source>
           <target state="translated">Vergütungsstufe</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4201775713 - Field 1157966702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
           <source>Reward ID</source>
-          <target state="translated">Vergütungsstufen-ID</target><note from="Developer" annotates="general" priority="2"/>
+          <target state="translated">Vergütungsstufen-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Reward ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4201775713 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
           <source>Description</source>
-          <target state="translated">Beschreibung</target><note from="Developer" annotates="general" priority="2"/>
+          <target state="translated">Beschreibung</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4201775713 - Field 4075675287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" approved="yes">
           <source>Discount Percentage</source>
-          <target state="translated">Rabatt %</target><note from="Developer" annotates="general" priority="2"/>
+          <target state="translated">Rabatt %</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Discount Percentage - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2465587863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reward List</source>
-          <target state="translated">Vergütungsstufen Übersicht</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Property Caption</note>
+        <trans-unit id="Codeunit 4195118232 - NamedType 3258359293" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value cannot be zero in field %1 for reward level %2.</source>
+          <target state="needs-translation">Der Wert darf in der Vergütungsstufe %2 im Feld %1 nicht 0 sein.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Event Handler - NamedType ValueMustBeLargerZeroErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2824380717 - Field 1148235650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
-          <source>Customer Reward ID</source>
-          <target state="translated">Vergütungsstufen-ID</target><note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward ID - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2824380717 - Field 749402391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
-          <source>Customer Reward Description</source>
-          <target state="translated">Vergütungsstufen Beschreibung</target><note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1524150600 - Action 308868279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Show Distance and Duration</source>
-          <target state="translated">Reisedauer und Entfernung</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Reward Ext. - Action ShowDistanceAndTravelDuration - Property Caption</note>
+        <trans-unit id="Codeunit 1386830146 - NamedType 2659488499" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to retrieve distance and duration. Please verify the address is valid.</source>
+          <target state="needs-translation">Es war nicht möglich die Reisedauer und Entfernung zu ermitteln. Bitte prüfen Sie die Adressen. </target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType UnableToRetrieveDistanceOrDurationErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1386830146 - NamedType 2236736815" size-unit="char" translate="yes" xml:space="preserve">
           <source>Origin: %1\Destination: %2\ \Distance: %3 km\Duration: %4 min.</source>
           <target state="translated">Start: %1\Ziel: %2\ \Entfernung: %3km\Reisezeit: %4min.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType FinalMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1386830146 - NamedType 594545870" size-unit="char" translate="yes" xml:space="preserve">
           <source>That are %1.</source>
           <target state="translated">Das sind übrigens %1.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Google Maps Api - NamedType FinalCoolMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1931864602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>apiCustomerList</source>
+          <target state="needs-translation">apiCustomerList</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page API Customer List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward Card</source>
+          <target state="needs-translation">Vergütungsstufe Karte</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="needs-translation">Allgemein</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 1157966702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the unique ID of the Reward Level.</source>
+          <target state="needs-translation">Gibt die eindeutige ID für die Vergütungsstufe an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Reward ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the description of the Reward Level.</source>
+          <target state="needs-translation">Gibt die Beschreibung für die Vergütungsstufe an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-translation">Optionen</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Control 4075675287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets the discount in percent to be applied if the Reward Level is assigned to a customer.</source>
+          <target state="needs-translation">Gibt den Rabatt in % an, der auf Debitoren angewandt wird, die dieser Vergütungsstufe zugeordnet sind.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Control Discount Percentage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 338024269 - Action 2345058688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Customers</source>
+          <target state="needs-translation">Debitoren zeigen</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward Card - Action ShowCustomers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward List</source>
+          <target state="translated">Vergütungsstufen Übersicht</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 1157966702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the unique ID of the Reward Level.</source>
+          <target state="needs-translation">Zeigt die eindeutige ID der Vergütungsstufe.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Reward ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the description of the Reward Level.</source>
+          <target state="needs-translation">Zeigt die Beschreibung der Vergütungsstufe.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2465587863 - Control 4075675287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the discount in percent to be applied if the Reward Level is assigned to a customer.</source>
+          <target state="needs-translation">Zeigt den Rabatt in % an, der auf Debitoren angewandt wird, die dieser Vergütungsstufe zugeordnet sind.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Discount Percentage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1524150600 - Action 308868279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Show Distance and Duration</source>
+          <target state="translated">Reisedauer und Entfernung</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Reward Ext. - Action ShowDistanceAndTravelDuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2824380717 - Field 1148235650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
+          <source>Customer Reward ID</source>
+          <target state="translated">Vergütungsstufen-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2824380717 - Field 749402391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448" approved="yes">
+          <source>Customer Reward Description</source>
+          <target state="translated">Vergütungsstufen Beschreibung</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Reward - Field Customer Reward Description - Property Caption</note>
         </trans-unit>
       </group>
     </body>
