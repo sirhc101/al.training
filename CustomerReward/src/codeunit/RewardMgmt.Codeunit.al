@@ -1,41 +1,8 @@
 codeunit 50200 "Reward Mgmt."
 {
-    Subtype = Install;
+    Access = Internal;
 
-    trigger OnInstallAppPerCompany()
-    var
-        cust: Record Customer;
-        rewardLevel: Dictionary of [Text, Integer];
-    begin
-        Clear(rewardLevel);
-        rewardLevel.Add('Bronze', 5);
-        rewardLevel.Add('Silber', 10);
-        rewardLevel.Add('Gold', 15);
-
-        CreateRewardLevel(rewardLevel);
-
-        // InsertReward('BRONZE', 'Bronze', 5);
-        // InsertReward('SILBER', 'Silber', 10);
-        // InsertReward('GOLD', 'Glod', 15);
-
-        cust.Reset();
-        cust.SetFilter("Customer Reward ID", '%1', '');
-        if (cust.Find('-')) then
-            repeat
-                cust.CalcFields("Sales (LCY)");
-                case true of
-                    ((cust."Sales (LCY)" >= 1000) and (cust."Sales (LCY)" <= 5000)):
-                        cust.Validate("Customer Reward ID", 'SILBER');
-                    (cust."Sales (LCY)" > 5000):
-                        cust.Validate("Customer Reward ID", 'GOLD');
-                    else
-                        cust.Validate("Customer Reward ID", 'BRONZE');
-                end;
-                cust.Modify(true);
-            until cust.Next() = 0;
-    end;
-
-    local procedure CreateRewardLevel(rewardLevel: Dictionary of [Text, Integer])
+    procedure CreateRewardLevel(rewardLevel: Dictionary of [Text, Integer])
     var
         rewardKey: Text;
         rewardDisc: Integer;
@@ -45,7 +12,7 @@ codeunit 50200 "Reward Mgmt."
                 InsertReward(rewardKey.ToUpper(), rewardKey, rewardDisc);
     end;
 
-    local procedure InsertReward(id: Text; description: Text; discPerc: Decimal)
+    procedure InsertReward(id: Text; description: Text; discPerc: Decimal)
     var
         idAsCode: Code[20];
     begin
@@ -53,7 +20,7 @@ codeunit 50200 "Reward Mgmt."
         InsertReward(idAsCode, CopyStr(description, 1, 50), discPerc);
     end;
 
-    local procedure InsertReward(id: Code[20]; description: Text[50]; discPerc: Decimal)
+    procedure InsertReward(id: Code[20]; description: Text[50]; discPerc: Decimal)
     var
         reward: Record Reward;
     begin
@@ -67,5 +34,18 @@ codeunit 50200 "Reward Mgmt."
         reward.Validate(Description, description);
         reward.Validate("Discount Percentage", discPerc);
         reward.Insert(true);
+    end;
+
+    procedure GetRewardId(cust: Record Customer): Code[20]
+    begin
+        cust.CalcFields("Sales (LCY)");
+        case true of
+            ((cust."Sales (LCY)" >= 10000) and (cust."Sales (LCY)" <= 50000)):
+                exit('SILBER');
+            (cust."Sales (LCY)" > 50000):
+                exit('GOLD');
+            else
+                exit('BRONZE');
+        end;
     end;
 }

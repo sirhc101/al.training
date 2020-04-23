@@ -103,6 +103,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Reward List - Control Discount Percentage - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Report 2025892803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Reward List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer Reward List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1910770953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Reward Level - Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Update Reward Level Cust. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 1226806654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>My Awesome Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action AwesomeActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 707691475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Awesome Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action AwesomeAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 1597981118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Another Awesome Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action AnotherAwesomeAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 2974301584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Most Awesome Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action MostAwesomeAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 2184521658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>My Not That Awesome Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action NotThatAwesomeActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 3744720111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Not That Awesome Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action NotThatAwesomeAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1109747497 - Action 2276594162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Another Not That Awesome Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BM RoleCenter Ext. - Action AnotherNotThatAwesomeAction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1524150600 - Action 308868279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Show Distance and Duration</source>
           <note from="Developer" annotates="general" priority="2"></note>
